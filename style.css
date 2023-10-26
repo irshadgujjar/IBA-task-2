@@ -9,6 +9,7 @@
 	background: #17252a;
 	position: fixed;
 	width: 100%;
+	display: inline-block;
 }
 
 .nav-bar ul {
@@ -84,5 +85,9 @@
 	height: 50px;
 }
 .marquee{
- text-align: center;
+ /* align-items: center !important; */
+ justify-content: center;
+display: inline-block;
+white-space: pre;
+overflow: hidden;
 }
